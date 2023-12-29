@@ -1,0 +1,12 @@
+names:
+- number_plate
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: traffic-pj8qd
+  url: https://universe.roboflow.com/blood-cells/traffic-pj8qd/dataset/1
+  version: 1
+  workspace: blood-cells
+test: Traffic-1/test/images
+train: Traffic-1/train/images
+val: Traffic-1/valid/images
