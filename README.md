@@ -63,7 +63,7 @@ pip install -r requirements.txt
 2. Run the system by executing `main.py`:
 
 ```bash
-python main.py
+xvfb-run python main.py 
 ```
 
 Follow the prompts and instructions to execute specific functionalities, such as:
