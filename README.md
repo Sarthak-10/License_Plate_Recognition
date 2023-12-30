@@ -45,7 +45,7 @@ Ensure that these dependencies are installed before running the system.
 1. Clone this repository to your local machine:
 
 ```bash
-git clone <repository_url.git>
+git clone https://github.com/Sarthak-10/License_Plate_Recognition.git
 ```
 
 2. Install the necessary dependencies:
