@@ -24,12 +24,12 @@ def process2(path,ch,id = 1):
         print(convert_rgb_to_names(i))
       elif(ch==2):
         print(closest_color(i))
-      im = np.array(i).reshape(1,1,3)
-      fig = plt.figure(figsize=(1,1))
-      ax = fig.add_subplot(111)
-      ax.axis("off")
-      ax.imshow(im)
-      plt.show()
+      # im = np.array(i).reshape(1,1,3)
+      # fig = plt.figure(figsize=(1,1))
+      # ax = fig.add_subplot(111)
+      # ax.axis("off")
+      # ax.imshow(im)
+      # plt.show()
 
   else:
     return [closest_color(i) for i in lst]
@@ -52,12 +52,12 @@ def process3(path,id = 1):
   lst = color_thief.get_color(quality=1)
   if id==1:
     print(closest_color(lst))
-    im = np.array(lst).reshape(1,1,3)
-    fig = plt.figure(figsize=(1,1))
-    ax = fig.add_subplot(111)
-    ax.axis("off")
-    ax.imshow(im)
-    plt.show()
+    # im = np.array(lst).reshape(1,1,3)
+    # fig = plt.figure(figsize=(1,1))
+    # ax = fig.add_subplot(111)
+    # ax.axis("off")
+    # ax.imshow(im)
+    # plt.show()
     return lst
   else:
     return lst
@@ -374,11 +374,12 @@ def recog(path_dir):
         "lp_class":""
     }
 
-    img = cv2.imread(path+"/"+str(i))
-    cv2.imshow("License Plate",img)
+    # img = cv2.imread(path+"/"+str(i))
+    # cv2.imshow("License Plate",img)
 
     # print("Best 3 colors")
     # process2(path+"/"+str(i),2,1)
+    print(str(i))
     print("dominant color")
     process3(path+"/"+str(i),1)
     lst = process2(path+"/"+str(i),2,2)
