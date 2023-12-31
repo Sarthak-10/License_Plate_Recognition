@@ -14,8 +14,7 @@ This repository contains a Python-based system for license plate recognition (LP
 - [Dependencies](#dependencies)
 - [Usage](#usage)
   - [Installation](#installation)
-  - [Running the System](#running-the-system)
-- [Folder Structure](#folder-structure)
+  - [Running the Demo](#running-the-demo)
 - [Contributing](#contributing)
 - [License](#license)
 
