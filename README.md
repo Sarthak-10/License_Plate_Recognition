@@ -1,6 +1,6 @@
 # License Plate Recognition System
-![image](https://github.com/Sarthak-10/License_Plate_Recognition/assets/55259635/8e98144b-4bcb-4841-96b3-a8b535b626f4)
 
+![image](https://github.com/Sarthak-10/License_Plate_Recognition/assets/55259635/2d6a48c7-64ae-426a-8780-7be86aa9db1e)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Colab_demo.ipynb)
 
