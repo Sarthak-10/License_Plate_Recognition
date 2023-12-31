@@ -2,6 +2,8 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Colab_demo.ipynb)
 
+:star:**Please star the repository if you happen to like the project**
+
 This repository contains a Python-based system for license plate recognition (LPR) using image processing and machine learning techniques. The system employs YOLO (You Only Look Once) object detection for identifying license plates in images or videos. It utilizes Tesseract OCR, OpenCV, and various image processing algorithms to extract and decode license plate information.
 
 ## Table of Contents
