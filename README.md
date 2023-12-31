@@ -54,10 +54,8 @@ git clone https://github.com/Sarthak-10/License_Plate_Recognition.git
 pip install -r requirements.txt
 ```
 
-### Running the System
-
+### Running the Demo
 1. Ensure you have the necessary input data:
-   - Place video files in the `detect/predict` directory.
    - Sample cropped license plate images should be in the `cropped_lp_samples` folder.
 
 2. Run the system by executing `main.py`:
@@ -66,18 +64,12 @@ pip install -r requirements.txt
 xvfb-run python main.py 
 ```
 
-Follow the prompts and instructions to execute specific functionalities, such as:
+The project is able to execute specific functionalities, such as:
 
 - Recognizing license plates from cropped images
 - Analyzing dominant colors in license plate images
 - Validating and decoding license plate information
 - Training and using the YOLO model for object detection
-
-## Folder Structure
-
-- `detect/predict`: Contains video files for license plate detection.
-- `runs`: Stores the outputs generated during model training.
-- `cropped_lp_samples`: Holds cropped license plate images for testing and validation.
 
 ## Contributing
 
