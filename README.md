@@ -15,6 +15,7 @@ This repository contains a Python-based system for license plate recognition (LP
 - [Usage](#usage)
   - [Installation](#installation)
   - [Running the Demo](#running-the-demo)
+- [Flow of the Project](#flow-of-the-project)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -92,7 +93,7 @@ The project is able to execute specific functionalities, such as:
 ## Flow of the Project
 
 In the project, we first train a yolov5 model to detect license plates from traffic surveillance images from a custom made traffic dataset. Then we use the model to detect license plates in a demo video. The cropped images of the detected license plates are stored in a folder. We then perform digital image processing techniques like deblurring, sharpening, etc on the cropped images of the license plate images. Finally we use Google's tesseract engine for OCR. We pass the processed images via the tesseract library to obtain the license plate numbers. We further post-process, validate and analyze the obtained license plate numbers to gather the information about the particular class and regions the vehicle belongs.
-  
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request or open an issue.
