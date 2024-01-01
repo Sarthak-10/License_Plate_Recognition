@@ -58,7 +58,20 @@ git clone https://github.com/Sarthak-10/License_Plate_Recognition.git
 ```bash
 pip install -r requirements.txt
 ```
+3. Install the additional dependencies:
 
+```bash
+sudo apt install tesseract-ocr
+sudo apt install libtesseract-dev
+sudo apt-get install -y libleptonica-dev
+sudo apt-get update -y
+sudo apt-get install automake
+sudo apt-get install -y pkg-config
+sudo apt-get install -y libsdl-pango-dev
+sudo apt-get install -y libicu-dev
+sudo apt-get install -y libcairo2-dev
+sudo apt-get install bc
+```
 ### Running the Demo
 1. Ensure you have the necessary input data:
    - Sample cropped license plate images should be in the `cropped_lp_samples` folder.
@@ -66,7 +79,7 @@ pip install -r requirements.txt
 2. Run the system by executing `main.py`:
 
 ```bash
-xvfb-run python main.py 
+python main.py 
 ```
 
 The project is able to execute specific functionalities, such as:
